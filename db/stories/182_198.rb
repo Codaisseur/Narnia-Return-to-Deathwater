@@ -225,3 +225,307 @@ Choice.create(
 You are dead as fuck!
 CHOICE
 )
+
+quest = Quest.create(
+  ref_number: 191,
+  description: <<-STORY
+It's one of the pirate ships Loridan told you about, and it's approaching fast! "Pirates to aft starboard!" you shout down to the captain. All hands rush to that side of the ship to see if it is true. Seeing the black low-slung vessel, they begin to murmur nervously amonst themselves. A sailor comes to relive you of your post, while you climb back down to find what will happen next?(NOTE: your eyesight has obviously become sharper here in Narnia! Add 1 to you perception bonus!)
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 367,
+  description: <<-CHOICE
+Move along!
+CHOICE
+)
+
+quest = Quest.create(
+  ref_number: 192,
+  description: <<-STORY
+You decide that it would be wrong to kil the unarmed men, and begin to tie hem with the hope that their friends will find them later. "mind you" says Cheekimeek, "if we meet on the see again, I shan't be so kind"
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 120,
+  description: <<-CHOICE
+Move along!
+CHOICE
+)
+
+quest = Quest.create(
+  ref_number: 193,
+  description: <<-STORY
+This is ghastly! You exclaim. "Why, can you imagine if we had dipped a hand or a paw into the water, or dabbled a toe or a tail?" "ugh!" Agrees cheekimeek. "Deathwater is an approriaate name fo this island. My ancestor, Reepicheep, named it well. Come, we must find out what is the cuase behind this awfull curse, and see what can be done to remove it"
+"Iam with you Cheekimeek" "Your fear of danger has not grown less. but you shudder at the thought of anyone accidentally stumbling into these waters" We dare not rish crossing over the water now! declares the Mouse. "Shall we follow the beach or head inland from here"
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 242,
+  description: <<-CHOICE
+Do you wanna head inland?
+CHOICE
+)
+
+Choice.create(
+  quest: quest,
+  destination: 314,
+  description: <<-CHOICE
+Do you wanna follow the beach around the east side of the island
+CHOICE
+)
+
+quest = Quest.create(
+  ref_number: 194,
+  description: <<-STORY
+  "Excuse me, sir," you say in a clearing-your- throat fash ion.
+
+  Raznion jumps at the sound, doing a fine impression of a
+  dancing marionette. For all the surprise on his features, you
+  wo uld think a winged elephant had suddenly popped into the
+  room, rather than a Mouse and a child.
+
+  •'Great glowing heavens!" he cries, grasping the edgeof the
+  we tl for support. "Who are you?"
+
+  -I've come from Namia to investigate the mystery of
+  Deathwater," you reply, though you have grown rather tired
+  of explaining yourself all the time.
+
+  "Mystery?" says the magician with a poorly fashioned look
+  of innocence on his face. He repeats the word several times (to
+  let you know he has no idea what you could be talking about)
+  and positions himself between you and the well to hide it.
+
+  "Yes, mystery," you continue. "Our search has uncovered
+  many questions, and they have led us here to you. Now, we
+  don't want to pry, but we have reason to believe that you and
+  your island pose a threat to people and animals everywhere."
+
+  "Threat?" says Razmon with a worried took. "Oh, no, no,
+  no! Not that! I mean, that's not exactly right."
+
+  "Besides," you add, "it looks as though your are badly in
+  need of a friend,"
+
+  "Ah, you're right there, child," he mutters, looking mourn-
+  fully at the floor. "Yes, I 've kept my secret too long, and it has
+  become heavy. Come, then. If it is answers you want, you
+  shall have them. But if you are looking for solutions, I'm
+  afraid I can be of little help."
+
+  Razmon's words are not terribly encouraging, but at last
+  you feel as though you are getting somewhere. The magician
+  steps around to the other side of the well, and motions for you
+  to come over. "I want you to meet my greatest secret, and even
+  greater lovc.Abadin."
+
+  Obeying h.s gestures, you peer into the well. It iS P erf ectJ
+  round, and goes down for at least a hundred fee,. The water?
+  so clear that you hardly notice it a. all, and seem to be gazi *
+  down a long tunnel filled with a shimmering b!ue light 2
+  ■h» -s nothing, however, to what you find at the v ery botioj
+  It .s a woman just like the one on the door, but mo*
+  beaut,ful because she is l.ving. She, too, seems quite aware
+  her beauty, and assumes several dainty poses to please her two
+  new admirers at the top of her well.
+
+  You are jus, wondering how i, is that she can be alive down
+  here, and what that light is tha, seems ,o radiate from he
+  body when Cheekimeek says, "My whiskers, that's a star-
+  Indeed, says Razmon, beaming with pride. "A star not
+  seen ,„ the nigh, sky for many a yea," He anticipates you
+  questions and continues. "She fell to earth ages ago, i ng
+  before ether of you were born, and was swallowed up by this
+  dead volcano of an island. The underground lake ,n wLn she
+  landed bubbled forth to form the two streams. Obviously
+  strong magic was involved, for many curses followed The
+  -stern stream turns everything it touches to gold, and though
+  the western stream has the power to restore these unfortu-
+  nates, there are few who know about it." k
+  "What's the other curse?" you ask. ■'■
+  "Ah, tha,, my child, is the worst of all. Abadin is trapped
+  former at the bottom of the well. The mos, beautiful star in^ , '
+  he heavens condemned ,o spend etemi,y underground"
+
+  havetnedtofreeher.AI.theseyearsIhave.ried.butLmag, .
+  .more powerful than even I feared, and the solution beyond ■
+  me. You seem a clever sort, child; at leas, you were cLer
+  nough to find me. Do you think you could free Abad.n f om
+  her watery prison?"
+
+  "Think, child, think!" cries the woman's voice from deep
+  beneath the water. "My beauty fades with every moment tha,
+  I pass at the bottom of this horrid well ! Surely , you can see that
+  a loveliness such as mine was not meant to be locked away,
+  but free to roam at will and be admired by all that bear witness
+  to it!"
+
+  Proud words to say the least! Still, you do want to help.
+  Little hope flutters in your heart or in the eyes of the magician.
+  Almost, you are about to tell the magician that you are sorry,
+  but you can think of nothing. Yet suddenly, you do think of
+  something, and a very important something at that.
+
+  The dream poem that King Favian recited back at Cair
+  Paravet rushes back into your mind with perfect clarity. It has
+  proven to be of little use , but now perhaps it will give you an
+  answer! Ignoring everything else, you concentrate on the
+  poem, trying to eke out some solution from its mysterious
+  rhyme.
+
+  Here is the poem for you to read again:
+
+  Coursing darkly through the night.
+
+  Onward in her jealous flight,
+
+  Makes herself a prison tigh t,
+
+  Prison far from sky and light.
+
+  Argent water, golden curse.
+
+  Seeks the peace, but makes things worse.
+
+  Seeks the peace in Self immersed,
+
+  Immersed like clues within the verse.
+
+  Only look and you shall see,
+
+  Nothing else can set her free.
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 204,
+  description: <<-CHOICE
+Do you think you understand the poem solution?
+CHOICE
+)
+
+Choice.create(
+  quest: quest,
+  destination: 207,
+  description: <<-CHOICE
+Are you stumped?...
+CHOICE
+)
+
+quest = Quest.create(
+  ref_number: 195,
+  description: <<-STORY
+There is nothing fancy about the wooden door on the lef,
+wall; well made, but nothing more. Nearing it, you can hea '
+ow vo.ces on the other side. The worst thing about door S
+that anything can be behind them, absolutely anything '
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 316,
+  description: <<-CHOICE
+Do you wanna enter?
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 250,
+  description: <<-CHOICE
+Do you wanna listen at the door?...
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 104,
+  description: <<-CHOICE
+Do you wanna enter the other door?
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 306,
+  description: <<-CHOICE
+Do you wanna go father down the corridor?
+CHOICE
+)
+
+quest = Quest.create(
+  ref_number: 196,
+  description: <<-STORY
+Cheekimeek tries to talk you out of the dangerous descent, but you are insistent. While he holds a candle, you descend into the pit. The first few feet go well; the sides are cold and wet, but your hands and feet find secure holds. Farther down however, the moisture begins to increase. When you have reached the limits of the candlelight, your hands encounter a slippery couting of moss in the shadown. Suddenly, you are no longer interested in what is at the bottom of this horrible pit. You attempt to muse upward. but it proves to be mhc more difficult than you thought it could be! (PICK A NUMBER, from 2-12, and add it to your action bonus)
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 190,
+  description: <<-CHOICE
+Did you pick 2 - 5?
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 116,
+  description: <<-CHOICE
+Did you pick 6-12?
+CHOICE
+)
+quest = Quest.create(
+  ref_number: 197,
+  description: <<-STORY
+  You start to open the journal, but an uncomfortable feeling
+  makes you stop and think a moment. Pick a number from 2-12 and add
+  your Inner Strength bonus:
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 121,
+  description: <<-CHOICE
+Did you pick 2 - 6?
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 323,
+  description: <<-CHOICE
+Did you pick 7-12?
+CHOICE
+)
+
+quest = Quest.create(
+  ref_number: 198,
+  description: <<-STORY
+Foam flies from the dogs' powerful jaws as they lunge at
+you and Cheekimeek. The air becomes filled with shouts and
+growls, and you find yourself feeling quite sick with fear and
+anger. Moments later, you are struggling on your back in the
+straw, a snarling dog standing on your chest. Pick a number, from 2-12
+and add your Fighting bonus:
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 178,
+  description: <<-CHOICE
+Did you pick 2 - 6?
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 183,
+  description: <<-CHOICE
+Did you pick 7 - 12?
+CHOICE
+)
