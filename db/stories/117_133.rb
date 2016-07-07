@@ -20,6 +20,7 @@ destination: 382,
 description: <<-CHOICE
 If 2 5, turn to 382
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -27,6 +28,7 @@ destination: 222,
 description: <<-CHOICE
 If 6 -12. turn to 222
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 118,
@@ -47,6 +49,7 @@ destination: 166,
 description: <<-CHOICE
 If you decide to talk to them, turn to 166
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -54,6 +57,7 @@ destination: 127,
 description: <<-CHOICE
 If you just want to leave, turn to 127
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 119,
@@ -81,6 +85,7 @@ destination: 382,
 description: <<-CHOICE
 Bidding Volmar a good night, you return to your room. : Turn to 286.
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 121,
@@ -113,7 +118,6 @@ the bowels of the mountain to continue my search. May
 Asian protect me."
 
 
-
 The journal stops there, and so do you, feeling suddenly
 guilty for having read this stranger's private thoughts. Still,
 you wonder who "she" is, and if Razmon ever found her. It's
@@ -132,6 +136,7 @@ destination: 124,
 description: <<-CHOICE
 If you check the bed, turn to 124
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -139,6 +144,7 @@ destination: 217,
 description: <<-CHOICE
 If you look in the chest, turn to 217
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -146,6 +152,7 @@ destination: 304,
 description: <<-CHOICE
 If you look in the chest, turn to 304
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 122,
@@ -175,6 +182,7 @@ destination: 169,
 description: <<-CHOICE
 If "A", turn to 169
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -182,6 +190,7 @@ destination: 215,
 description: <<-CHOICE
 If "B" , turn to 251
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -189,6 +198,7 @@ destination: 293,
 description: <<-CHOICE
 If "C ", turn to 293
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -196,6 +206,7 @@ destination: 339,
 description: <<-CHOICE
 If "C ", turn to 339
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 123,
@@ -217,6 +228,7 @@ destination: 307,
 description: <<-CHOICE
 If "A", turn to 307
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -224,6 +236,7 @@ destination: 354,
 description: <<-CHOICE
 If H*12. turn to 354
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 124,
@@ -245,6 +258,7 @@ destination: 217,
 description: <<-CHOICE
 you look in the chest, turn to 21 7
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -252,6 +266,7 @@ destination: 240,
 description: <<-CHOICE
 If you examine the desk, turn to 240
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -259,6 +274,7 @@ destination: 304,
 description: <<-CHOICE
 If you examine the desk, turn to 304
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 125,
@@ -276,6 +292,7 @@ destination: 259,
 description: <<-CHOICE
 turn to 259
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 126,
@@ -304,6 +321,7 @@ destination: 369,
 description: <<-CHOICE
 If you take the exit from the cave, turn to 369
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -311,6 +329,7 @@ destination: 291,
 description: <<-CHOICE
 If X<> hack to the 4-way corridor, turn to 291
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 127,
@@ -332,6 +351,7 @@ destination: 283,
 description: <<-CHOICE
 If yon hike to the north side of the island, turn to 283
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -339,6 +359,7 @@ destination: 245,
 description: <<-CHOICE
 If you follow the cliffs south, turn to 245
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 128,
@@ -359,6 +380,7 @@ destination: 306,
 description: <<-CHOICE
 If you continue along the corridor, turn to 306
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -366,6 +388,7 @@ destination: 195,
 description: <<-CHOICE
 If you continue along the corridor, turn to 195
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -373,6 +396,7 @@ destination: 104,
 description: <<-CHOICE
 If you go to the door on your right, turn to 104.
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 129,
@@ -393,6 +417,7 @@ destination: 321,
 description: <<-CHOICE
 turn to 306
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 130,
@@ -419,6 +444,7 @@ destination: 412,
 description: <<-CHOICE
 turn to 412
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 131,
@@ -443,6 +469,7 @@ destination: 252,
 description: <<-CHOICE
 If you scramble down to the east, turn to 252
 CHOICE
+)
 
 Choice.create(
 quest: quest,
@@ -450,6 +477,7 @@ destination: 402,
 description: <<-CHOICE
 If you follow the cliffs west, turn to 402
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 132,
@@ -467,6 +495,7 @@ destination: 252,
 description: <<-CHOICE
 Turn to 321
 CHOICE
+)
 
 quest = Quest.create(
 ref_number: 133,
@@ -488,3 +517,4 @@ destination: 252,
 description: <<-CHOICE
 Turn to 321
 CHOICE
+)
