@@ -1,4 +1,4 @@
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 198,
   description: <<-STORY
   Foam flies from the dogs' powerful jaws as they lunge at
@@ -10,7 +10,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 178,
   description: <<-CHOICE
@@ -18,7 +18,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 183,
   description: <<-CHOICE
@@ -26,7 +26,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 199,
   description: <<-STORY
   "Water from the western stream! I must have some to cure
@@ -34,7 +34,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 274,
   description: <<-CHOICE
@@ -42,15 +42,15 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
-  quest: quest
+Choice.create(
+  quest: quest,
   destination: 153,
   description: <<-CHOICE
  Otherwise
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 200,
   description: <<-STORY
   Studying the stream reveals nothing that should disturb
@@ -68,7 +68,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 100,
   description: <<-CHOICE
@@ -77,7 +77,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 201,
   description: <<-STORY
   You could reach him with your hand, but it occurs to you
@@ -94,7 +94,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 244,
   description: <<-CHOICE
@@ -108,7 +108,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 202,
   description: <<-STORY
   As you get nearer to the edge of the pool, you feel a curious
@@ -121,7 +121,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 266,
   description: <<-CHOICE
@@ -129,7 +129,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 369,
   description: <<-CHOICE
@@ -137,7 +137,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 291,
   description: <<-CHOICE
@@ -145,7 +145,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 203,
   description: <<-STORY
   Climbing the stairs, you enter a vast cavern brilliantly lit
@@ -157,7 +157,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 157,
   description: <<-CHOICE
@@ -165,7 +165,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 445,
   description: <<-CHOICE
@@ -173,7 +173,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 204,
   description: <<-STORY
   After several frustrating moments spent coming up with
@@ -184,7 +184,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 449,
   description: <<-CHOICE
@@ -192,7 +192,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 205,
   description: <<-STORY
   'The water from the western stream!" you cry. "Only that
@@ -200,7 +200,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 261,
   description: <<-CHOICE
@@ -208,7 +208,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 415,
   description: <<-CHOICE
@@ -216,7 +216,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 206,
   description: <<-STORY
   Entering the cave cautiously, you are startled by the unex-
@@ -242,7 +242,7 @@ cut these ropes!"
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 145,
   description: <<-CHOICE
@@ -250,7 +250,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 406,
   description: <<-CHOICE
@@ -258,7 +258,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 207,
   description: <<-STORY
   You can remember the poem, but the solution remains
@@ -270,7 +270,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 209,
   description: <<-CHOICE
@@ -278,7 +278,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 224,
   description: <<-CHOICE
@@ -286,7 +286,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 208,
   description: <<-STORY
   Playing the flute causes the pirates to stop a moment in
@@ -298,7 +298,7 @@ Fighting bonus:
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 307,
   description: <<-CHOICE
@@ -306,7 +306,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 354,
   description: <<-CHOICE
@@ -314,7 +314,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 209,
   description: <<-STORY
   "Oh, it's no use!" you say, stamping a foot in frustration. "I
@@ -331,7 +331,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 226,
   description: <<-CHOICE
@@ -339,7 +339,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 210,
   description: <<-STORY
   Ever wary, you creep into a large cave dimly lit with
@@ -350,7 +350,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 440,
   description: <<-CHOICE
@@ -358,7 +358,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 291,
   description: <<-CHOICE
@@ -366,7 +366,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 211,
   description: <<-STORY
   You notice a shadow on the sand. It shows in outline a man
@@ -382,7 +382,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 123,
   description: <<-CHOICE
@@ -390,7 +390,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 318,
   description: <<-CHOICE
@@ -398,7 +398,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 208,
   description: <<-CHOICE
@@ -406,7 +406,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 212,
   description: <<-STORY
   When you get to the table, breakfast has already been set
@@ -436,7 +436,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 334,
   description: <<-CHOICE
@@ -444,7 +444,7 @@ Choice.create (
   CHOICE
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 345,
   description: <<-CHOICE
@@ -452,7 +452,7 @@ Choice.create (
   CHOICE
 )
 
-quest = Quest.create (
+quest = Quest.create(
   ref_number: 213,
   description: <<-STORY
   You notice a shadow on the sand. It shows in outline a man
@@ -468,7 +468,7 @@ quest = Quest.create (
   STORY
 )
 
-Choice.create (
+Choice.create(
   quest: quest,
   destination: 269,
   description: <<-CHOICE
