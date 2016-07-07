@@ -28,6 +28,10 @@ class Character < ActiveRecord::Base
 
   def set_initial_skillpoints
     self.fighting ||= 0
-    # .. etc
+    self.trickery ||= 0
+    self.action ||= 0
+    self.talking ||= 0
+    self.perception ||= 0
+    self.innerstrength ||= 0
   end
 end
