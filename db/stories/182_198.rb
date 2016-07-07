@@ -461,7 +461,7 @@ CHOICE
 quest = Quest.create(
   ref_number: 196,
   description: <<-STORY
-Cheekimeek tries to talk you out of the dangerous descent, but you are insistent. While he holds a candle, you descend into the pit. The first few feet go well; the sides are cold and wet, but your hands and feet find secure holds. Farther down however, the moisture begins to increase. When you have reached the limits of the candlelight, your hands encounter a slippery couting of moss in the shadown. Suddenly, you are no longer interested in what is at the bottom of this horrible pit. You attempt to muse upward. but it proves to be mhc more difficult than you thought it could be! (PICK A NUMBER and add it to your action bonus)
+Cheekimeek tries to talk you out of the dangerous descent, but you are insistent. While he holds a candle, you descend into the pit. The first few feet go well; the sides are cold and wet, but your hands and feet find secure holds. Farther down however, the moisture begins to increase. When you have reached the limits of the candlelight, your hands encounter a slippery couting of moss in the shadown. Suddenly, you are no longer interested in what is at the bottom of this horrible pit. You attempt to muse upward. but it proves to be mhc more difficult than you thought it could be! (PICK A NUMBER, from 2-12, and add it to your action bonus)
 STORY
 )
 
@@ -477,5 +477,55 @@ Choice.create(
   destination: 116,
   description: <<-CHOICE
 Did you pick 6-12?
+CHOICE
+)
+quest = Quest.create(
+  ref_number: 197,
+  description: <<-STORY
+  You start to open the journal, but an uncomfortable feeling
+  makes you stop and think a moment. Pick a number from 2-12 and add
+  your Inner Strength bonus:
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 121,
+  description: <<-CHOICE
+Did you pick 2 - 6?
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 323,
+  description: <<-CHOICE
+Did you pick 7-12?
+CHOICE
+)
+
+quest = Quest.create(
+  ref_number: 198,
+  description: <<-STORY
+Foam flies from the dogs' powerful jaws as they lunge at
+you and Cheekimeek. The air becomes filled with shouts and
+growls, and you find yourself feeling quite sick with fear and
+anger. Moments later, you are struggling on your back in the
+straw, a snarling dog standing on your chest. Pick a number, from 2-12
+and add your Fighting bonus:
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 178,
+  description: <<-CHOICE
+Did you pick 2 - 6?
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 183,
+  description: <<-CHOICE
+Did you pick 7 - 12?
 CHOICE
 )
