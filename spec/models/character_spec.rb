@@ -7,4 +7,14 @@ RSpec.describe Character, type: :model do
   #-------- Validations
   it { is_expected.to validate_presence_of :name }
   it { is_expected.to validate_presence_of :gender }
+
+  describe "initial skill points" do
+    let(:char) { Character.new }
+    before { char.valid? }
+
+    it "sets the skill points to their default values" do
+      expect(char.fighting).to eq 0
+      expect(char.talking).to eq 0
+    end
+  end
 end
