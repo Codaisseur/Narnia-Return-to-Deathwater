@@ -225,3 +225,18 @@ Choice.create(
 You are dead as fuck!
 CHOICE
 )
+
+quest = Quest.create(
+  ref_number: 191,
+  description: <<-STORY
+It's one of the pirate ships Loridan told you about, and it's approaching fast! "Pirates to aft starboard!" you shout down to the captain. All hands rush to that side of the ship to see if it is true. Seeing the black low-slung vessel, they begin to murmur nervously amonst themselves. A sailor comes to relive you of your post, while you climb back down to find what will happen next?(NOTE: your eyesight has obviously become sharper here in Narnia! Add 1 to you perception bonus!)
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 367,
+  description: <<-CHOICE
+Move along!
+CHOICE
+)
