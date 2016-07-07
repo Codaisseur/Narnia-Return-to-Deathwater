@@ -11,12 +11,18 @@ class ApplicationController < ActionController::Base
     puts "Random number: #{random_number}"
     puts "Bonus: #{bonus}"
     total = random_number + bonus
-    puts "Total: #{random_number} + #{bonus}"
     if total > 12
-      return 12
+      total = 12
+      puts "Total: #{random_number} + #{bonus} = #{total}"
+      puts "Total is higher than 12."
+      return total
     elsif total < 2
-      return 2
+      puts "Total is lower than 2."
+      total = 2
+      puts "Total: #{random_number} + #{bonus} = #{total}"
+      return total
     else
+      puts "Total: #{random_number} + #{bonus} = #{total}"
       return total
     end
   end
