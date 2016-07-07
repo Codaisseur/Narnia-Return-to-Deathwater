@@ -133,3 +133,30 @@ Choice.create(
 Do you wanna dive into the pool?....
 CHOICE
 )
+
+quest = Quest.create(
+  ref_number: 187,
+  description: <<-STORY
+No, killing the pirates would solve nothing. They have
+suffered enough, being shipwrecked on this island. The gold
+might be sufficient payment for what they did...
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 164,
+  description: <<-CHOICE
+)
+Do you wanna take all that shining gold and leave the island?
+CHOICE
+)
+
+Choice.create(
+  quest: quest,
+  destination: 108,
+  description: <<-CHOICE
+)
+Do you wanna leave the area?
+CHOICE
+)
