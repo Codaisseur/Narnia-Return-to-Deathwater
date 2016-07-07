@@ -11,7 +11,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+gem 'carrierwave'
 gem 'devise'
 
 gem 'active_model_serializers'
@@ -34,4 +34,3 @@ group :development do
   gem 'rb-fsevent'
   gem 'terminal-notifier-guard'
 end
-
