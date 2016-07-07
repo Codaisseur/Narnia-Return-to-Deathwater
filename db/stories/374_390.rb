@@ -25,7 +25,7 @@ your class and await the day when you will return to Narnia.
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 100,
 description: <<-CHOICE
@@ -43,7 +43,7 @@ already coming out of it. May I suggest you hurry?
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 291,
 description: <<-CHOICE
@@ -76,7 +76,7 @@ No one will ever forget it. And now..."
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 100,
 description: <<-CHOICE
@@ -105,7 +105,7 @@ too strong."
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: "342",
 description: <<-CHOICE
@@ -113,7 +113,7 @@ description: <<-CHOICE
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: "163",
 description: <<-CHOICE
@@ -121,7 +121,7 @@ description: <<-CHOICE
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: "291",
 description: <<-CHOICE
@@ -138,7 +138,7 @@ must untie him!"
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: "145",
 description: <<-CHOICE
@@ -181,7 +181,7 @@ introducing yourself to them.
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: "271",
 description: <<-CHOICE
@@ -189,7 +189,7 @@ description: <<-CHOICE
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: "125",
 description: <<-CHOICE
@@ -229,7 +229,7 @@ this adventure and return to your friends back at Cair Paravel.
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: "322",
 description: <<-CHOICE
@@ -237,7 +237,7 @@ description: <<-CHOICE
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: "107",
 description: <<-CHOICE
@@ -245,7 +245,7 @@ description: <<-CHOICE
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: "112",
 description: <<-CHOICE
@@ -293,7 +293,7 @@ next one!
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: "292",
 description: <<-CHOICE
@@ -314,7 +314,7 @@ onto the stoney ledge in front of the gaping earthen mouths.
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 163,
 description: <<-CHOICE
@@ -348,7 +348,7 @@ at the table, giving you the perfect opportunity to sneak away.
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 444,
 description: <<-CHOICE
@@ -356,7 +356,7 @@ description: <<-CHOICE
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 272,
 description: <<-CHOICE
@@ -381,7 +381,7 @@ you brace yourself for the adventure ahead.
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 143,
 description: <<-CHOICE
@@ -389,7 +389,7 @@ description: <<-CHOICE
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 103,
 description: <<-CHOICE
@@ -418,7 +418,7 @@ bucket), from which two streams pour onto the floor to flow •
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 429,
 description: <<-CHOICE
@@ -426,7 +426,7 @@ l f>' ou attac ^ tne magician, turn to 429. in two opposite directions..
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 194,
 description: <<-CHOICE
@@ -434,7 +434,7 @@ These streams leave the chamber * If>' m talk t0 him ' turn t0 194
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 189,
 description: <<-CHOICE
@@ -453,7 +453,7 @@ himself. Chec k key 22.
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 349,
 description: <<-CHOICE
@@ -461,7 +461,7 @@ description: <<-CHOICE
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 283,
 description: <<-CHOICE
@@ -491,7 +491,7 @@ bility is yours.
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 167,
 description: <<-CHOICE
@@ -499,7 +499,7 @@ description: <<-CHOICE
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 292,
 description: <<-CHOICE
@@ -508,7 +508,7 @@ turn to 292.
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 245,
 description: <<-CHOICE
@@ -525,7 +525,7 @@ move deeper into the complex.
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 291,
 description: <<-CHOICE
@@ -542,7 +542,7 @@ but to others, and you give the command to Cheekimeek
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 122,
 description: <<-CHOICE
@@ -571,7 +571,7 @@ resheathing his weapon. "Come on, then. Let's be off."
 STORY
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 255,
 description: <<-CHOICE
@@ -581,7 +581,7 @@ water's edge, check Key 9 and turn to 225.
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 283,
 description: <<-CHOICE
@@ -591,7 +591,7 @@ water's edge, turn to 283.
 CHOICE
 )
 
-Choice.create (
+Choice.create(
 quest: quest,
 destination: 252,
 description: <<-CHOICE
