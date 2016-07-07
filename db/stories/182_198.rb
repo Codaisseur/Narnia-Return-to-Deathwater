@@ -418,3 +418,42 @@ Choice.create(
 Are you stumped?...
 CHOICE
 )
+
+quest = Quest.create(
+  ref_number: 195,
+  description: <<-STORY
+There is nothing fancy about the wooden door on the lef,
+wall; well made, but nothing more. Nearing it, you can hea '
+ow vo.ces on the other side. The worst thing about door S
+that anything can be behind them, absolutely anything '
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 316,
+  description: <<-CHOICE
+Do you wanna enter?
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 250,
+  description: <<-CHOICE
+Do you wanna listen at the door?...
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 104,
+  description: <<-CHOICE
+Do you wanna enter the other door?
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 306,
+  description: <<-CHOICE
+Do you wanna go father down the corridor?
+CHOICE
+)
