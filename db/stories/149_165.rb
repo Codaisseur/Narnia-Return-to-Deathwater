@@ -4,15 +4,7 @@ from 149 to 165
 quest = Quest.create(
   ref_number: 149,
   description: <<-STORY
-From where you now stand, you can see that the passage
-runs up to the northeast (or so you guess) and down to what
-must then be the south. There is a heavy door on the western
-wall of the corridor which feels oddly warm. Loud noises like
-the clash of weapons reach your ears from the other side. Is a
-battle raging on the other side? Cheekimeek has his hand at the
-hilt of his rapier, and seems eager to investigate. You sink
-under the opposite emotion, and would sooner face a whole
-ship of Calormene pirates than open that door!
+From where you now stand, you can see that the passage runs up to the northeast (or so you guess) and down to what must then be the south. There is a heavy door on the western wall of the corridor which feels oddly warm. Loud noises like the clash of weapons reach your ears from the other side. Is a battle raging on the other side? Cheekimeek has his hand at the hilt of his rapier, and seems eager to investigate. You sink under the opposite emotion, and would sooner face a whole ship of Calormene pirates than open that door!
 STORY
 )
 Choice.create(
@@ -39,16 +31,9 @@ Choice.create(
 quest = Quest.create(
   ref_number: 150,
   description: <<-STORY
-  "What am I going to do?" you cry, working yourself into a
-  frightful state of panic
-  "Have no fear, child," replies the Mouse bravely. "Where
-  there's a curse there's a cure, as my mother used to say. And,
-  by the Lion, I'm going to find it for you. Follow me!"
-  Determined, you and Cheekimeek continue to explore the
-  caves, and exit through the far end of the cavern. (Note:
-  Unfortunately, you've become rather clumsy with your
-  golden finger. Subtract 1 from your Fighting bonus. Check
-  Key 20.
+  "What am I going to do?" you cry, working yourself into a   frightful state of panic "Have no fear, child," replies the Mouse bravely. "Where   there's a curse there's a cure, as my mother used to say. And,   by the Lion, I'm going to find it for you. Follow me!"
+  Determined, you and Cheekimeek continue to explore the   caves, and exit through the far end of the cavern.
+  (Note: Unfortunately, you've become rather clumsy with your golden finger. Subtract 1 from your Fighting bonus. Check Key 20.
   STORY
 )
 Choice.create(
@@ -234,7 +219,7 @@ quest = Quest.create(
   Outside, Aslan is waiting with look of disappointment on his face. "You have forsaken another being in his hour of need. Child, you must learn to know me better! My way is not one of guilt and envy and pride! Remember that he who lives by the sword dies by the sword. Child, know your own weakness," the Lion's roar gentles to a growl.
   You hang your head in shame. "Oh, Aslan, how could I be so blind!" you cry. "I promise I'll do better next time!"
   "Indeed, you shall, dear heart," comforts the Lion. "Now, be valiant and true, child! Continue with your quest, and I will attend to the Calormene myself."
-  You watch Asian enter the cave, and then turn to examine your surroundings. A small lake spreads out before the ledge on which you stand, emptying on the far side to create the eastern stream. Peering into its waters you see acurious statue of a man. Looking closer, it appears to be made of gold! Low cliffs surround the lake on three sides, casting cold shadows over the surface of the water. The stoney ledge leads past the cave you just came out of to three other caves. Since Aslan has commanded you to finish your quest, these caves impress you as the best places to investigate next.
+  You watch Aslan enter the cave, and then turn to examine your surroundings. A small lake spreads out before the ledge on which you stand, emptying on the far side to create the eastern stream. Peering into its waters you see acurious statue of a man. Looking closer, it appears to be made of gold! Low cliffs surround the lake on three sides, casting cold shadows over the surface of the water. The stoney ledge leads past the cave you just came out of to three other caves. Since Aslan has commanded you to finish your quest, these caves impress you as the best places to investigate next.
   STORY
 )
 Choice.create(
