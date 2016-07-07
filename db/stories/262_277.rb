@@ -207,7 +207,7 @@ Choice.create(
   CHOICE
 )
 
-quest = Quest(
+quest = Quest.create(
   ref_number: 268,
   description: <<-STORY
   Though Cheekimeek is very brave, he is also very small,
@@ -261,7 +261,7 @@ Choice.create(
   CHOICE
 )
 
-quest = Quest(
+quest = Quest.create(
   ref_number: 269,
   description: <<-STORY
   Everybody else has gone above to help out during the crisis.
@@ -285,7 +285,7 @@ Choice.create(
   CHOICE
 )
 
-quest = Quest(
+quest = Quest.create(
   ref_number: 270,
   description: <<-STORY
   "Come on Cheekimeek," you say, grabbing onto the thick
@@ -313,7 +313,7 @@ Choice.create(
   CHOICE
 )
 
-quest = Quest(
+quest = Quest.create(
   ref_number: 271,
   description: <<-STORY
   In your haste to leave the hall, you walk directly into a brass
@@ -330,7 +330,7 @@ Choice.create(
   CHOICE
 )
 
-quest = Quest(
+quest = Quest.create(
   ref_number: 272,
   description: <<-STORY
   After some minutes the dwarf returns, shaking his head
@@ -361,7 +361,7 @@ Choice.create(
   CHOICE
 )
 
-quest = Quest(
+quest = Quest.create(
   ref_number: 273,
   description: <<-STORY
   There might be something useful in this room, but it would
@@ -379,7 +379,7 @@ Choice.create(
   CHOICE
 )
 
-quest = Quest(
+quest = Quest.create(
   ref_number: 274,
   description: <<-STORY
 "Wait!" Cheekimeek says, brightening. "The gourds still
@@ -405,7 +405,7 @@ Choice.create(
   CHOICE
 )
 
-quest = Quest(
+quest = Quest.create(
   ref_number: 275,
   description: <<-STORY
   "Now, where do you two think you're going?" asks one of
@@ -424,7 +424,7 @@ quest = Quest(
     CHOICE
   )
 
-  quest = Quest(
+  quest = Quest.create(
     ref_number: 276,
     description: <<-STORY
     At the sound of your footsteps, the bound man raises hj s
@@ -450,7 +450,7 @@ quest = Quest(
     CHOICE
   )
 
-  quest = Quest(
+  quest = Quest.create(
     ref_number: 277,
     description: <<-STORY
     Lying in bed one night, you awake to find the ship lurching
