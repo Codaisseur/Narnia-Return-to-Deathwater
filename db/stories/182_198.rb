@@ -457,3 +457,25 @@ Choice.create(
 Do you wanna go father down the corridor?
 CHOICE
 )
+
+quest = Quest.create(
+  ref_number: 196,
+  description: <<-STORY
+Cheekimeek tries to talk you out of the dangerous descent, but you are insistent. While he holds a candle, you descend into the pit. The first few feet go well; the sides are cold and wet, but your hands and feet find secure holds. Farther down however, the moisture begins to increase. When you have reached the limits of the candlelight, your hands encounter a slippery couting of moss in the shadown. Suddenly, you are no longer interested in what is at the bottom of this horrible pit. You attempt to muse upward. but it proves to be mhc more difficult than you thought it could be! (PICK A NUMBER and add it to your action bonus)
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 190,
+  description: <<-CHOICE
+Did you pick 2 - 5?
+CHOICE
+)
+Choice.create(
+  quest: quest,
+  destination: 116,
+  description: <<-CHOICE
+Did you pick 6-12?
+CHOICE
+)
