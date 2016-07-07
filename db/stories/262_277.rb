@@ -165,7 +165,7 @@ Choice.create(
   CHOICE
 )
 
-quest = Quest(
+quest = Quest.create(
   ref_number: 267,
   description: <<-STORY
   With your consent, the Dwarfs bind your wrists behind
