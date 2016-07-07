@@ -156,7 +156,7 @@ quest = Quest.create(
   description: <<-STORY
   They might have appeared clumsy when you first saw
   them, but the Dwarfs prove to be able fighters. In a flash, you
-  are mercifully (if rather painfully) subdued. Turn to 173.
+  are mercifully (if rather painfully) subdued.
 STORY
 )
 
@@ -165,5 +165,63 @@ Choice.create(
   destination: 173,
   description: <<-CHOICE
 Move along!
+CHOICE
+)
+
+quest = Quest.create(
+  ref_number: 189,
+  description: <<-STORY
+You had begun to develop a rather bad impression of Razmon, what with the curse and the gold and all. But seeing him has changed all that. There is something sad. yet tender about the man standing at the well. You listen quietly to what he is saying. "let me tell you again, my radiance." He murmurs softly into the water, "about the day when i shall free you from your water cell, and you will rise to shine brightly once more. How all the curses will come to an end and how happily together we shall live out our remaining days in this paradise that was once our prison".
+What peculiar talk! Could it be that the magician is a bit crackers? You are almost convinced of this, when something makes you stop cold. A voice rises up from the well: a voice so far away and mournful that is nearly wrenches your heart right of your body to hear it. "Oh, Razmon" The silvery voice sings, "every day you come to me and speak of my realse; every day for years and years! but do you do it"? Do i at this moment, walk freely where i will, as is my due? Or do i set here yet, Waiting for the day that will never come? Oh, Razmon, do you not think me beautifull, more beautiful than any of Aslan's creations? You have said you do. Well than, forget this talk of curses and dreams for the future. What good are they to me? Forget the ache in your back and your tired eyes. Workm, Razmon, work for my release! Can the world go on without me?
+
+A harch mistress, indeed, you think to yourself. At this paurse in the curious converstaion you decide that it is time to let you presence be known.
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 194,
+  description: <<-CHOICE
+Move along!
+CHOICE
+)
+
+quest = Quest.create(
+  ref_number: 190,
+  description: <<-STORY
+Oh. no! You"ve slipped! "'Cheeeeeeeeeeeek!" you cry as
+you slide faster and faster away from your friend. You fall for
+what seems like hours, always waiting to finally hit bottom,
+but you never do.
+
+Eventually, the wall begins to curve under you, slowing
+your descent until you are sliding along a nearly horizontal
+surface (tike you do on your dining room floor at home). You
+wonder when this trip is going to end, and if you are ever going
+to see daylight again, when something heavy brushes across
+your face like a curtain. ■.
+
+On the other side there is light. You have returned to the
+museum, spinning to a halt before the display of the stuffed
+Lion. Of course, now you know it is Asian, He says, "Fate has
+returned you to your own world before you could finish your
+adventure. Do not worry. Someday you will return to com-
+plete it. Until then, fulfill my quest here! Learn to know me by
+my other name! Farewell, dear heart!"
+
+Giving the lion one last hug, you head back to your
+classmates, eager to tell Eustace of your adventures and to
+wait for the day when you wil! return.
+
+it's easy to return to Narnia! Just turn to the Prologue and
+begin again!
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 100,
+  description: <<-CHOICE
+You are dead as fuck!
 CHOICE
 )
