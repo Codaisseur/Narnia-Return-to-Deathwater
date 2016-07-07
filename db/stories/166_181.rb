@@ -33,7 +33,7 @@ Choice.create(
   CHOICE
 )
 
-
+#######################################################
 quest =  Quest.create(
   ref_number: 167,
   description: <<-STORY
@@ -89,7 +89,7 @@ turn to 160.
   CHOICE
 )
 
-
+#########################################################
 quest =  Quest.create(
   ref_number: 168,
   description: <<-STORY
@@ -109,7 +109,7 @@ Choice.create(
   CHOICE
 )
 
-
+#########################################################
 quest =  Quest.create(
   ref_number: 169,
   description: <<-STORY
@@ -129,7 +129,7 @@ Choice.create(
   CHOICE
 )
 
-
+######################################################
 
 quest =  Quest.create(
   ref_number: 170,
@@ -152,7 +152,7 @@ Choice.create(
   CHOICE
 )
 
-
+#################################################
 quest =  Quest.create(
   ref_number: 171,
   description: <<-STORY
@@ -214,7 +214,7 @@ Choice.create(
   CHOICE
 )
 
-
+#####################################################
 quest =  Quest.create(
   ref_number: 172,
   description: <<-STORY
@@ -272,7 +272,7 @@ Choice.create(
   CHOICE
 )
 
-
+#####################################################
 
 quest =  Quest.create(
   ref_number: 173,
@@ -292,7 +292,7 @@ Choice.create(
   CHOICE
 )
 
-
+########################################################
 quest =  Quest.create(
   ref_number: 174,
   description: <<-STORY
@@ -338,13 +338,13 @@ Choice.create(
 )
 
 
-
+########################################################
 quest =  Quest.create(
   ref_number: 175,
   description: <<-STORY
   You doubt that you have ever played more beautifully in
-  your hfe. Clear, sweet music floats over ,he dogs, and they f a „
-  slowly into a peaceful slumber to dream of chasing across ,„e
+  your life. Clear, sweet music floats over the dogs, and they fall
+  slowly into a peaceful slumber to dream of chasing across the
   downs and rolling in the heather. When you reach the end of
   the tune, you wake Cheekimeek, who was also overcome by
   the magic of the flute, and leave the cave quietly.
@@ -370,17 +370,17 @@ Choice.create(
 )
 
 
-
+#######################################################
 quest =  Quest.create(
   ref_number: 176,
   description: <<-STORY
   The wind dies altogether, the sea flattens, and it seems as if
   the Zephyr Reginalis is nailed to the spot. Changeless minutes'
-  go by. and you become bored with your post. Then there is a :
-  movement, so tiny and far off you are not sure that you have '
+  go by. and you become bored with your post. Then there is a
+  movement, so tiny and far off you are not sure that you have
   seen it at all. Straining your eyes, you peer out toward the
-  d.stant honzon. There it is again. This time you are sure you"
-  saw something: a black ship approaching. Have you heard of I
+  distant horizon. There it is again. This time you are sure you
+  saw something: a black ship approaching. Have you heard of
   such ships before?
   STORY
 )
@@ -401,26 +401,38 @@ Choice.create(
   CHOICE
 )
 
-
+#######################################################
 quest =  Quest.create(
   ref_number: 177,
   description: <<-STORY
-  Itisalmostuncomfortablenottofeeltheshiprockin asyou 1
-  he m bed, but the wind has died altogether and the ship gives
-  only the shghtest hint of movement. Staring up at the celling
-  you w ish that something, anything, would happen to relieve
+  It is almost uncomfortable not to feel the ship rockin as you
+  lie in bed, but the wind has died altogether and the ship gives
+  only the slightest hint of movement. Staring up at the ceiling
+  you wish that something, anything, would happen to relieve
   the monotony. Then something does happen, and you vow to
-  be more careful with your wishes in the future
+  be more careful with your wishes in the future.
 
-  fi n 7 1 n at H S! ?t me0ne Sh ° Uling ab ° Ve - You rush °n deck to
+  "Pirates!" someone is shouting above. You rush on deck to
   find all hands hurrying to the starboard side. In the distance
   you can see a long, black ship approaching. Turn to 367.
+  STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 367,
+  description: <<-CHOICE
+  Turn to 367.
+  CHOICE
+)
 
 
-
-
-  The battle was fast and furious, and in the end you lost, f
-  , e not say more than that! Turn to 409.
+###########################################################
+quest =  Quest.create(
+  ref_number: 178,
+  description: <<-STORY
+  The battle was fast and furious, and in the end you lost.
+  I dare not say more than that! Turn to 409.
   STORY
 )
 
@@ -429,5 +441,122 @@ Choice.create(
   destination: 409,
   description: <<-CHOICE
   Turn to 409.
+  CHOICE
+)
+
+######################################################
+quest =  Quest.create(
+  ref_number: 179,
+  description: <<-STORY
+  "Perhaps we'll find out what they're up to if we listen to
+  what they are saying," you observe. You lean closer and cup
+  a hand to your ear. Fortunately, none of the pirates knows how
+  to talk below the level of a shout and their words reach you
+  clearly.
+  "O, lice of a thousand camels. hasten thy sluggish limbs!"
+  bellows the one with the sword (the one doing no work at all
+  himself). "O, rats of a thousand fleets of warships, before Tash
+  the terrible and divine puts out the sun this evening, thee shall
+  complete this raft of labor of forfeit even one beetle's share of
+  gold."
+  "Te poets, whose minds are far sharper than your sword,
+  say let not the lion's share go to the one who roars the loudest.
+  The gold belongs to all of us," protests another, rising to his
+  feet."Were we not in accord that none should order another,
+  but all have authority alike?"
+  "I, O foolhardy cousin, possessed the only mind of sufficient
+  sharpness to remember that a weaponless man is a slave.
+  And slaves posses the authority of an ass. My sword is not
+  soft, useless gold, but wicked steel. I command here!" snarls
+  the first man, drawing his blade threateningly.
+  A few are frightened by this vulgar display; the others grow
+  angrier and rise to their feet. A fight may break out at any
+  moment, and you don't know if you want to be around to
+  witness it. Yet you are intrigued by their talk of gold. Certainly,
+  this is the one of the mysteries you were sent here to solve!
+  STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 223,
+  description: <<-CHOICE
+  If you approach the men, turn to 223.
+  CHOICE
+)
+
+Choice.create(
+  quest: quest,
+  destination: 283,
+  description: <<-CHOICE
+  If you sneak to the beach and travel north, turn to 283.
+  CHOICE
+)
+
+Choice.create(
+  quest: quest,
+  destination: 252,
+  description: <<-CHOICE
+  If you head inland (west) through the trees, turn to 252.
+  CHOICE
+)
+
+Choice.create(
+  quest: quest,
+  destination: 225,
+  description: <<-CHOICE
+  If you sneak to the beach and walk toward the southern bay,
+  check Key 9 and turn to 225.
+  CHOICE
+)
+##########################################################
+
+quest =  Quest.create(
+  ref_number: 180,
+  description: <<-STORY
+  Something's bothering you. isn 't it, child? Pick a number
+  and add your Inner Strength bonus.
+  STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 141,
+  description: <<-CHOICE
+  If 2-4, turn to 141.
+  CHOICE
+)
+
+Choice.create(
+  quest: quest,
+  destination: 378,
+  description: <<-CHOICE
+  If 5-12, turn to 378.
+  CHOICE
+)
+
+##########################################################
+quest =  Quest.create(
+  ref_number: 181,
+  description: <<-STORY
+  Even the captain feels sympathy (in his way) for your
+  plight, but there is neither relief nor cure on board for what you
+  are experiencing. Cheekimeek suggest that you go below where
+  the ship's motion will not be so apparent. Too sick to do
+  anything but agree, you retire shakily to your berth where
+  the next few days pass with intolerable slowness and considerable
+  discomfort.
+  By the time you have acquired sea legs, the Zephyr Reginalist
+  has already visited Narrowhaven. The ship's supplies were
+  replenished while you groaned in your bunkbed without ever
+  gazing upon the town's withe roofs. Turn to 277.
+  STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 277,
+  description: <<-CHOICE
+  Turn to 277.
   CHOICE
 )
