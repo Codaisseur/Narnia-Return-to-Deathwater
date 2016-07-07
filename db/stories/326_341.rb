@@ -95,7 +95,7 @@ Choice.create(
 
 quest = Quest.create(
   ref_number: 329,
-  desription: <<-STORY
+  description: <<-STORY
     "They outnumber you, but Cheekimeek nimbly avoids their
     attacks and disarms them. You bind them securely with their
     own rope. After it is all through, you stand over your captives, ;
