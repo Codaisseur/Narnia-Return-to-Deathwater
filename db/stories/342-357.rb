@@ -520,7 +520,7 @@ Choice.create(
 )
 
 quest = Quest.create(
-  ref_number: 357
+  ref_number: 357,
   description: <<-STORY
   At last (though too soon for your tastes), the time has come
 to leave Cair Paravel and board the ship. King Favian leads the
