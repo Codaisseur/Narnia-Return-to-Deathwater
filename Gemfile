@@ -14,6 +14,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise'
 
+gem 'active_model_serializers'
+
 group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
