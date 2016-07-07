@@ -18,7 +18,6 @@ Choice.create(
   quest: quest,
   destination: 205,
   description: <<-CHOICE
-)
 Do you where to find the cure? If you do move along!
 CHOICE
 )
@@ -37,7 +36,6 @@ Choice.create(
   quest: quest,
   destination: 370,
   description: <<-CHOICE
-)
 Do you wish to examine the door on the other side of the corridor?
 CHOICE
 )
@@ -46,7 +44,6 @@ Choice.create(
   quest: quest,
   destination: 128,
   description: <<-CHOICE
-)
 Do you wish to continue down the corridor?
 CHOICE
 )
@@ -68,7 +65,6 @@ Choice.create(
   quest: quest,
   destination: 409,
   description: <<-CHOICE
-)
 Do you wish to not die and continue, quickly move along
 CHOICE
 )
@@ -93,7 +89,6 @@ Choice.create(
   quest: quest,
   destination: 300,
   description: <<-CHOICE
-)
 Do you want to continue with your brave mission? Continue!
 CHOICE
 )
@@ -113,7 +108,6 @@ Choice.create(
   quest: quest,
   destination: 106,
   description: <<-CHOICE
-)
 Do you wanna dive into the pool?....
 CHOICE
 )
@@ -121,7 +115,6 @@ Choice.create(
   quest: quest,
   destination: 155,
   description: <<-CHOICE
-)
 Do you only wanna test the water?..
 CHOICE
 )
@@ -129,7 +122,6 @@ Choice.create(
   quest: quest,
   destination: 321,
   description: <<-CHOICE
-)
 Do you wanna dive into the pool?....
 CHOICE
 )
@@ -147,7 +139,6 @@ Choice.create(
   quest: quest,
   destination: 164,
   description: <<-CHOICE
-)
 Do you wanna take all that shining gold and leave the island?
 CHOICE
 )
@@ -156,7 +147,23 @@ Choice.create(
   quest: quest,
   destination: 108,
   description: <<-CHOICE
-)
 Do you wanna leave the area?
+CHOICE
+)
+
+quest = Quest.create(
+  ref_number: 188,
+  description: <<-STORY
+  They might have appeared clumsy when you first saw
+  them, but the Dwarfs prove to be able fighters. In a flash, you
+  are mercifully (if rather painfully) subdued. Turn to 173.
+STORY
+)
+
+Choice.create(
+  quest: quest,
+  destination: 173,
+  description: <<-CHOICE
+Move along!
 CHOICE
 )
