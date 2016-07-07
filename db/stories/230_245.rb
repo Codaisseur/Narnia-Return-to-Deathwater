@@ -1,5 +1,5 @@
-quest230 = Quest.create (
-  ref_number: 230
+quest230 = Quest.create(
+  ref_number: 230,
   description: <<-STORY
 
 "Golly!" you say to the captain. "I'd like that."
@@ -17,22 +17,21 @@ Perception bonus:
 STORY
 )
 
-  choice.create(
+  Choice.create(
     quest: quest230,
     destination: 356,
     description: "if 2-5"
+    )
 
-  )
-
-  choice.create(
+  Choice.create(
     quest: quest230,
     destination: 176,
     description: "if 6-12"
 
   )
 
-quest231 = Quest.create (
-  ref_number: 231
+quest231 = Quest.create(
+  ref_number: 231,
   description: <<-STORY
 
   "Thank you, captain, "you say, "but if it 'sal J right with you,
@@ -43,13 +42,14 @@ quest231 = Quest.create (
   STORY
   )
 
-  choice.create(
+  Choice.create(
     quest: quest231,
     destination: 177,
     description: "Go"
+  )
 
-quest232 = Quest.create (
-  ref_number: 232
+quest232 = Quest.create(
+  ref_number: 232,
   description: <<-STORY
   Like a cowboy on some watery ranch, you swing the rope;
   high above your head and let it fly toward its target, the
@@ -66,15 +66,15 @@ quest232 = Quest.create (
   STORY
   )
 
-  choice.create(
+  Choice.create(
     quest: quest232,
     destination: 244,
     description: "Go"
 
+)
 
-
-quest233 = Quest.create (
-  ref_number: 233
+quest233 = Quest.create(
+  ref_number: 233,
   description: <<-STORY
 
   After careful inspection, the cliff reveals nothing unusual.
@@ -85,21 +85,21 @@ quest233 = Quest.create (
   STORY
   )
 
-  choice.create(
+  Choice.create(
     quest: quest233,
     destination: 252,
     description: "If you scramble down through the briars to the east"
+)
 
-
-  choice.create(
+  Choice.create(
     quest: quest233,
     destination: 402,
     description: "If you follow the cliffs to the west"
+)
 
 
-
-quest234 = Quest.create (
-ref_number: 234
+quest234 = Quest.create(
+ref_number: 234,
 description: <<-STORY
 You and Cheekimeek are lowered to the water in a small
 rowboat. Loridan tells you that the Zephyr Reginalis will be
@@ -116,14 +116,14 @@ You find yourself filled with fear and delight at the
 Mouse's words.
 STORY
 )
-choice.create(
+Choice.create(
   quest: quest234,
   destination: 386,
   description: "Continue the story"
+)
 
-
-quest235 = Quest.create (
-  ref_number: 235
+quest235 = Quest.create(
+  ref_number: 235,
   description: <<-STORY
   Cheekimeek stands by for your command. You are So
   angry with the Dwarfs that you want to kill them, but some-
@@ -132,18 +132,20 @@ quest235 = Quest.create (
   STORY
   )
 
-choice.create(
+Choice.create(
   quest: quest235,
   destination: 122,
   description: "If 2-5"
+)
 
-choice.create(
+Choice.create(
   quest: quest235,
   destination: 118,
   description: "If 6-12"
+)
 
-quest236 = Quest.create (
-  ref_number: 236
+quest236 = Quest.create(
+  ref_number: 236,
   description: <<-STORY
   You begin to piay a simple tune on the flute, and the dog
   perks up his ears at the sound. As you play, however, you get
@@ -153,19 +155,20 @@ quest236 = Quest.create (
   STORY
   )
 
-choice.create(
+Choice.create(
   quest: quest236,
   destination: 408,
   description: "If 2-4"
+)
 
-choice.create(
+Choice.create(
   quest: quest236,
   destination: 298,
   description: "If 5-12"
+)
 
-
-quest237 = Quest.create (
-ref_number: 237
+quest237 = Quest.create(
+ref_number: 237,
 description: <<-STORY
 You forge a short distance into the broken land, but soon
 can go no farther. "Oh, Cheek" you say, removing some :
@@ -180,18 +183,20 @@ better, then we can always turn back later. All right?"
 STORY
 )
 
-choice.create(
+Choice.create(
   quest: quest237,
   destination: 238,
   description: "If you decide to continue onward"
+)
 
-choice.create(
+Choice.create(
   quest: quest237,
   destination: 283,
   description: "If you want to turn back,"
+)
 
-quest238 = Quest.create (
-ref_number: 238
+quest238 = Quest.create(
+ref_number: 238,
 description: <<-STORY
 "All right. I'll try," you answer, but there is little hope in
 your voice. Following the Mouse's advice, you scan the
@@ -200,19 +205,20 @@ add your Perception bonus:
 STORY
 )
 
-choice.create(
+Choice.create(
   quest: quest238,
   destination: 239,
   description: "If 2-5,"
+)
 
-choice.create(
+Choice.create(
   quest: quest238,
   destination: 243,
   description: "If 6-12,"
+)
 
-
-quest239 = Quest.create (
-ref_number: 239
+quest239 = Quest.create(
+ref_number: 239,
 description: <<-STORY
 A few routes appear to be more traversable than the others,
 but each one you try gets you so tangled in a web of brambles
@@ -224,14 +230,14 @@ fortune to be born as mice."
 STORY
 )
 
-choice.create(
+Choice.create(
   quest: quest239,
   destination: 283,
   description: "Continue with the story"
+)
 
-
-quest240 = Quest.create (
-  ref_number: 240
+quest240 = Quest.create(
+  ref_number: 240,
   description: <<-STORY
   Poking about the desk, you find the usual things: paper, ink,
   and some pens. In the drawer, along with some diagrams of
@@ -253,28 +259,32 @@ quest240 = Quest.create (
   STORY
   )
 
-choice.create(
+Choice.create(
   quest: quest240,
   destination: 197,
   description: "If you want to read the journal"
+)
 
-choice.create(
+Choice.create(
   quest: quest240,
   destination: 124,
   description: "If you check the bed"
+)
 
-choice.create(
+Choice.create(
   quest: quest240,
   destination: 217,
   description: "If you investigate the chest"
+)
 
-choice.create(
+Choice.create(
   quest: quest240,
   destination: 304,
   description: "If you leave the cabin"
+)
 
-quest241 = Quest.create (
-  ref_number: 241
+quest241 = Quest.create(
+  ref_number: 241,
   description: <<-STORY
 
 Cheekimeek tries to persuade you not to take the gold.
@@ -308,14 +318,15 @@ the floor of the museum, surrounded by your classmates.
   STORY
   )
 
-choice.create(
+Choice.create(
   quest: quest241,
   destination: 100,
   description: "If you are ready to return to Narnia, go to the Prologue and
   begin again! "
+  )
 
-quest242 = Quest.create (
-ref_number: 242
+quest242 = Quest.create(
+ref_number: 242,
 description: <<-STORY
 Walking through the shimmering shade of the woods, you
 arrive at an area where several trees have been cleared awaj
@@ -329,28 +340,32 @@ likely lies along that path."
 STORY
 )
 
-choice.create(
+Choice.create(
   quest: quest242,
   destination: 308,
   description: "If you walk down the path toward the beach"
+)
 
-choice.create(
+Choice.create(
   quest: quest242,
   destination: 341,
   description: "If you climb the slope of the mountain"
+)
 
-choice.create(
+Choice.create(
   quest: quest242,
   destination: 252,
   description: "If you wander north"
+)
 
-choice.create(
+Choice.create(
   quest: quest242,
   destination: 225,
   description: "If you go south and check Key 9"
+)
 
-quest243 = Quest.create (
-ref_number: 243
+quest243 = Quest.create(
+ref_number: 243,
 description: <<-STORY
 Peeking through some leaves, you are surprised to findfo
 narrow path running more or less due south. You fight your
@@ -376,23 +391,26 @@ give chase?"
 STORY
 )
 
-choice.create(
+Choice.create(
   quest: quest243,
   destination: 351,
   description: "If you follow the noise"
+)
 
-choice.create(
+Choice.create(
   quest: quest243,
   destination: 135,
   description: "If you continue along the path"
+)
 
-choice.create(
+Choice.create(
   quest: quest243,
   destination: 252,
   description: "If you head east"
+)
 
-quest244 = Quest.create (
-ref_number: 244
+quest244 = Quest.create(
+ref_number: 244,
 description: <<-STORY
 The storm gives way to fair weather, and the next few days
 are excellent sailing.
@@ -400,18 +418,20 @@ are excellent sailing.
 STORY
 )
 
-choice.create(
+Choice.create(
   quest: quest244,
   destination: 248,
   description: "If you saved London's life"
+)
 
-choice.create(
+Choice.create(
   quest: quest244,
   destination: 177,
   description: "Otherwise"
+)
 
-quest245 = Quest.create (
-  ref_number: 245
+quest245 = Quest.create(
+  ref_number: 245,
   description: <<-STORY
   You stand looking up at where the western stream tumbles
   down a misty waterfall, to land noisily in a pool at the foot of
@@ -428,17 +448,20 @@ quest245 = Quest.create (
   STORY
   )
 
-choice.create(
+Choice.create(
   quest: quest245,
   destination: 351,
   description: "If you follow the noise west"
+)
 
-choice.create(
+Choice.create(
   quest: quest245,
   destination: 292,
   description: "if you head east along the base of the cliff"
+)
 
-choice.create(
+Choice.create(
   quest: quest245,
   destination: 391,
   description: "If you go downstream (south)"
+)
