@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Quest.destroy_all
+
+Dir[Rails.root.join('db/stories/**/*.rb')].each { |f| require f }
+
+puts "Seeded #{Quest.count} Quests and #{Choice.count} Choices!"
