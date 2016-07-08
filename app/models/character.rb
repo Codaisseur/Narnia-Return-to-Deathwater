@@ -4,16 +4,16 @@ class Character < ActiveRecord::Base
 
   before_validation :set_initial_skillpoints
 
-  # def initialize
-  #   @attr_points = 6
-  #
-  #   @fighting_attribute = 0
-  #   @trickery_attribute = 0
-  #   @action_attribute = 0
-  #   @talking_attribute = 0
-  #   @perception_attribute = 0
-  #   @innerstrength_attribute = 0
-  # end
+  def initialize
+    @attr_points = 6
+
+    @fighting_attribute = 0
+    @trickery_attribute = 0
+    @action_attribute = 0
+    @talking_attribute = 0
+    @perception_attribute = 0
+    @innerstrength_attribute = 0
+  end
 
   def add_points(points)
     @attr_points -= 1
@@ -34,4 +34,5 @@ class Character < ActiveRecord::Base
     self.perception ||= 0
     self.innerstrength ||= 0
   end
+
 end
