@@ -220,7 +220,7 @@ STORY
 
 Choice.create(
   quest: quest,
-  destination: 100,
+  destination: 99,
   description: <<-CHOICE
 You are dead as fuck!
 CHOICE
