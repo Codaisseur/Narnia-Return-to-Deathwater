@@ -11,10 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160707090940) do
+ActiveRecord::Schema.define(version: 20160707124821) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "bags", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "choices", force: :cascade do |t|
     t.integer  "quest_id"
@@ -25,6 +30,17 @@ ActiveRecord::Schema.define(version: 20160707090940) do
   end
 
   add_index "choices", ["quest_id"], name: "index_choices_on_quest_id", using: :btree
+
+  create_table "items", force: :cascade do |t|
+    t.string   "name"
+    t.string   "description"
+    t.string   "image"
+    t.integer  "bag_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  add_index "items", ["bag_id"], name: "index_items_on_bag_id", using: :btree
 
   create_table "quests", force: :cascade do |t|
     t.text     "description"
@@ -54,4 +70,5 @@ ActiveRecord::Schema.define(version: 20160707090940) do
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
   add_foreign_key "choices", "quests"
+  add_foreign_key "items", "bags"
 end
