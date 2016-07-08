@@ -3,7 +3,7 @@ class DiceRoller
 
   def initialize(options = {})
     @min = options.fetch(:min, 2)
-    @max = options.fetch(:max, 12)
+    @max = options.fetch(:max, 13)
     @bonus = options.fetch(:bonus, 0)
   end
 
