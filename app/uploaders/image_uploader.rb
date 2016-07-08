@@ -2,7 +2,7 @@
 
 class ImageUploader < CarrierWave::Uploader::Base
   include Cloudinary::CarrierWave
-end
+
 
 version :thumbnail do
     eager
@@ -54,5 +54,4 @@ version :thumbnail do
   # def filename
   #   "something.jpg" if original_filename
   # end
-
 end
