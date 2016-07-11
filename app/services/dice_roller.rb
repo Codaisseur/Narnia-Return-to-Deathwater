@@ -2,10 +2,10 @@ class DiceRoller
   attr_reader :min, :max
   attr_accessor :bonus
 
-  def initialize(options = {}, bonus)
+  def initialize(bonus, options = {})
     @min = options.fetch(:min, 2)
     @max = options.fetch(:max, 12)
-    if is_number? bonus
+    if number? bonus
       @bonus = bonus.to_i
     else
       raise ArgumentError, "Bonus parameter is not a number. Try again."
@@ -13,15 +13,10 @@ class DiceRoller
   end
 
   def roll
-    number = [random_number + @bonus, @max].min
-    if number < 2
-      return 2
-    else
-      return number
-    end
+    [[random_number + @bonus, @max].min, 2].max
   end
 
-  def is_number? string
+  def number?(string)
     true if Integer(string) rescue false
   end
 
