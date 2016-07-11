@@ -419,7 +419,7 @@ begin again!
 
 Choice.create(
     quest: quest,
-    destination: 100,
+    destination: 99,
     description: ""
 )
 quest = Quest.create(
