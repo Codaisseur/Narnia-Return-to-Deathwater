@@ -22,7 +22,7 @@ class DiceRoller
   end
 
   def is_number? string
-    true if Float(string) rescue false
+    true if Integer(string) rescue false
   end
 
   def random_number
