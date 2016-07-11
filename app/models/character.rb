@@ -14,11 +14,11 @@ class Character < ActiveRecord::Base
     @innerstrength_attribute = 0
   end
 
-  def start_game
-    if @attr_points == 0
-      game.new
-    end
-  end
+  # def start_game
+  #   if @attr_points == 0
+  #     game.new
+  #   end
+  # end
 
   end
   def add_points(points)
