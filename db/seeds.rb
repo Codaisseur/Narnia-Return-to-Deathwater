@@ -12,5 +12,5 @@ Dir[Rails.root.join('db/stories/**/*.rb')].each { |f| require f }
 
 puts "Seeded #{Quest.count} Quests and #{Choice.count} Choices!"
 
-Character.create(name: "FoxyFighter", gender: "Male", fighting: 1, trickery: 1, action: 1, talking: 1, perception: 1, innerstrength: 1)
-Character.create(name: "RaytaZeFierce", gender: "Female", fighting: 1, trickery: 1, action: 1, talking: 1, perception: 1, innerstrength: 1)
+Character.create(name: "FoxyFighter", gender: "Male", fighting: 1, trickery: 1, action: 1, talking: 1, perception: 1, innerstrength: 1, remote_avatar_url: "http://res.cloudinary.com/dt4mtkh5k/image/upload/v1468231884/foxyfighter_koy1pf.jpg")
+Character.create(name: "RaytaZeFierce", gender: "Female", fighting: 1, trickery: 1, action: 1, talking: 1, perception: 1, innerstrength: 1, remote_avatar_url: "http://res.cloudinary.com/dt4mtkh5k/image/upload/v1468231893/RaytaZeFierce_lp50e6.png")
