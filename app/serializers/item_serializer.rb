@@ -1,5 +1,5 @@
 class ItemSerializer < ActiveModel::Serializer
-  attributes :id, :name, :description, :image, :bag_id
+  attributes :id, :name, :description, :image
 
   belongs_to :bag
 end
