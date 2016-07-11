@@ -1,6 +1,6 @@
 class Character < ActiveRecord::Base
 
-  mount_uploader :image, ImageUploader
+  mount_uploader :avatar, ImageUploader
   belongs_to :user
   validates_presence_of :name, :gender
   before_validation :set_initial_skillpoints
