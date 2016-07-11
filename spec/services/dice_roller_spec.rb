@@ -1,28 +1,28 @@
 require 'rails_helper'
 
 RSpec.describe DiceRoller do
-  let(:roller) { DiceRoller.new }
+  let(:roller) { DiceRoller.new(3) }
 
   describe "initialize" do
-    describe "default params" do
+    describe "default params and bonus" do
 
-      it "should set the defaults" do
+      it "should set the default min and max and accept the provided bonus" do
         expect(roller.min).to eq 2
         expect(roller.max).to eq 12
-        expect(roller.bonus).to eq 0
+        expect(roller.bonus).to eq(3)
       end
     end
 
-    describe "custom params" do
-      let(:roller) { DiceRoller.new(custom_params) }
-      let(:custom_params) { { min: 5, max: 24, bonus: 3 } }
+    # test per function
 
-      it "should set min, max, and bonus accordingly" do
-        expect(roller.min).to eq custom_params[:min]
-        expect(roller.max).to eq custom_params[:max]
-        expect(roller.bonus).to eq custom_params[:bonus]
-      end
-    end
+    # describe "custom params" do
+    #   let(:roller) { DiceRoller.new(3) }
+    #
+    #   it "should accept the provided bonus" do
+    #     expect(roller.min).to eq(2)
+    #     expect(roller.max).to eq(12)
+    #   end
+    # end
 
     describe "#roll" do
       let(:roller) { DiceRoller.new(custom_params) }

@@ -1,7 +1,7 @@
 class DiceController < ApplicationController
 
   def create
-    render json: DiceRoller.new(dice_params)
+    render json: DiceRoller.new(:bonus)
   end
 
   private
