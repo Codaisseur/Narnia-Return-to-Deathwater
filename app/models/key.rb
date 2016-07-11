@@ -3,6 +3,6 @@ class Key < ActiveRecord::Base
   validates_uniqueness_of :ref_number
 
   def self.by_ref(ref_number)
-    self.find_by(ref_number: ref_number)
+    find_by(ref_number: ref_number)
   end
 end

@@ -5,6 +5,6 @@ class Quest < ActiveRecord::Base
   validates_uniqueness_of :ref_number
 
   def self.by_ref(number)
-    self.find_by(ref_number: number)
+    find_by(ref_number: number)
   end
 end
