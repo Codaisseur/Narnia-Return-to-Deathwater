@@ -5,6 +5,13 @@ class Character < ActiveRecord::Base
   validates_presence_of :name, :gender
   before_validation :set_initial_skillpoints
 
+
+  # def start_game
+  #   if @attr_points == 0
+  #     game.new
+  #   end
+  # end
+
   def add_points(points)
     @attr_points -= 1
     points = points + 1

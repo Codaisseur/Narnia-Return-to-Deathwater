@@ -15,6 +15,12 @@ RSpec.describe Character, type: :model do
     it "sets the skill points to their default values" do
       expect(char.fighting).to eq 0
       expect(char.talking).to eq 0
+      expect(char.action).to eq 0
+      expect(char.innerstrength).to eq 0
+      expect(char.trickery).to eq 0
+      expect(char.perception).to eq 0
     end
+
+
   end
 end
