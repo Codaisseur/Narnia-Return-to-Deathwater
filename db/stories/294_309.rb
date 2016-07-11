@@ -96,7 +96,7 @@ STORY
 
 Choice.create(
   quest: quest,
-  destination: 100,
+  destination: 99,
   description: <<-CHOICE
   This adventure has ended. Turn to the Prologue to begin the
   next one!

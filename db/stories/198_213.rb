@@ -70,7 +70,7 @@ quest = Quest.create(
 
 Choice.create(
   quest: quest,
-  destination: 100,
+  destination: 99,
   description: <<-CHOICE
   Alas, this adventure ends here. Turn to the Prologue to
   begin the next one!

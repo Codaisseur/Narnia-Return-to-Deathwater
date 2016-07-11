@@ -108,7 +108,7 @@ quest = Quest.create(
 
 Choice.create(
   quest: quest,
-  destination: 100,
+  destination: 99,
   description: <<-CHOICE
     It's easy to return to Narnia! Just go to the Prologue and
     begin again!
@@ -219,7 +219,7 @@ quest = Quest.create(
 
 Choice.create(
   quest: quest,
-  destination: 100,
+  destination: 99,
   description: <<-CHOICE
     It's easy to return to Narnia! Just turn to the Prologue and
     begin again!
