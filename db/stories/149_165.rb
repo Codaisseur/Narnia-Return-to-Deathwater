@@ -1,6 +1,3 @@
-Description
-
-from 149 to 165
 quest = Quest.create(
   ref_number: 149,
   description: <<-STORY

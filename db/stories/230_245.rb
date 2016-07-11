@@ -320,7 +320,7 @@ the floor of the museum, surrounded by your classmates.
 
 Choice.create(
   quest: quest241,
-  destination: 100,
+  destination: 99,
   description: "If you are ready to return to Narnia, go to the Prologue and
   begin again! "
   )
