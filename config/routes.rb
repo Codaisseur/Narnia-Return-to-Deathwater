@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'item/index'
+
+  get 'item/show'
+
+  get 'bag/index'
+
+  get 'bag/show'
+
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
