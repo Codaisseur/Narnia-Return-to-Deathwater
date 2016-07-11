@@ -8,7 +8,7 @@ class DiceRoller
     if is_number? bonus
       @bonus = bonus.to_i
     else
-      return "Bonus parameter is not a number. Try again."
+      raise ArgumentError, "Bonus parameter is not a number. Try again."
     end
   end
 
