@@ -24,21 +24,21 @@ RSpec.describe DiceRoller do
     #   end
     # end
 
-    describe "#roll" do
-      let(:roller) { DiceRoller.new(custom_params) }
-      let(:custom_params) { { min: 5, max: 12, bonus: 3 } }
-
-      it "should never return a lower value than min" do
-        allow(roller).to receive(:random_number).and_return(0)
-
-        expect(roller.roll).to eq 5
-      end
-
-      it "should never return a higher value than max" do
-        allow(roller).to receive(:random_number).and_return(12)
-
-        expect(roller.roll).to eq 12
-      end
-    end
+    # describe "#roll" do
+    #   let(:roller) { DiceRoller.new(custom_params) }
+    #   let(:custom_params) { { min: 5, max: 12, bonus: 3 } }
+    #
+    #   it "should never return a lower value than min" do
+    #     allow(roller).to receive(:random_number).and_return(0)
+    #
+    #     expect(roller.roll).to eq 5
+    #   end
+    #
+    #   it "should never return a higher value than max" do
+    #     allow(roller).to receive(:random_number).and_return(12)
+    #
+    #     expect(roller.roll).to eq 12
+    #   end
+    # end
   end
 end
