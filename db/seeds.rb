@@ -12,6 +12,8 @@ Dir[Rails.root.join('db/stories/**/*.rb')].each { |f| require f }
 
 puts "Seeded #{Quest.count} Quests and #{Choice.count} Choices!"
 
+
+
 user = User.create(email: "test@test.com", password: "password")
 
 
