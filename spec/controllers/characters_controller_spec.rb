@@ -12,10 +12,17 @@ RSpec.describe CharactersController, :type => :controller do
       get 'index'
       response.should be_succes
     end
-
-
   end
 
+  describe "GET show" do
+    it "it shows a specific character" do
+      sign_in :user, @user
+      get 'show'
+      response.should be_succes
+    end
+  end
+
+  
 
 
 
