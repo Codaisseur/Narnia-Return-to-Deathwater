@@ -11,3 +11,6 @@ Quest.destroy_all
 Dir[Rails.root.join('db/stories/**/*.rb')].each { |f| require f }
 
 puts "Seeded #{Quest.count} Quests and #{Choice.count} Choices!"
+
+character = Character.new {name: "FoxyFighter", gender: "Male", fighting_attribute: 1, trickery_attribute: 1, action_attribute: 1, talking_attribute: 1, perception_attribute: 1, innerstrength_attribute: 1 }
+character = Character.new {name: "RaytaZeFierce", gender: "Female", fighting_attribute: 1, trickery_attribute: 1, action_attribute: 1, talking_attribute: 1, perception_attribute: 1, innerstrength_attribute: 1 }
