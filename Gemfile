@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.3.1'
 
+gem 'cloudinary'
 gem 'rails', '4.2.6'
 gem 'pg', '~> 0.15'
 gem 'sass-rails', '~> 5.0'
@@ -11,7 +12,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+gem 'carrierwave'
 gem 'devise'
 
 gem 'active_model_serializers'
@@ -36,5 +37,6 @@ group :development do
   gem 'rb-fsevent'
   gem 'terminal-notifier-guard'
 end
+
 
 gem 'rails_12factor', group: :production
