@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :items
-  resource  :bag
+  resource :bag
 
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
