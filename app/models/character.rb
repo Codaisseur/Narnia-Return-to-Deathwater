@@ -27,7 +27,6 @@ class Character < ActiveRecord::Base
   end
 
   def save_attr
-
   end
 
   private
