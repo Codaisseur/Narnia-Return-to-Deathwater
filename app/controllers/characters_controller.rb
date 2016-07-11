@@ -1,4 +1,5 @@
 class CharactersController < ApplicationController
+  before_action :authenticate_user!
 
   def index
     @characters = current_user.characters
@@ -6,7 +7,7 @@ class CharactersController < ApplicationController
   end
 
   def show
-    @character = Character.find(params[:id])
+    @character = current_user.characters.find(params[:id])
     render json: @character
   end
 
