@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20160707150304) do
 
+ActiveRecord::Schema.define(version: 20160707143807) do
+
+
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -30,6 +33,7 @@ ActiveRecord::Schema.define(version: 20160707150304) do
     t.datetime "updated_at",    null: false
     t.integer  "attr_points"
     t.integer  "user_id"
+    t.string   "avatar"
   end
 
   add_index "characters", ["user_id"], name: "index_characters_on_user_id", using: :btree

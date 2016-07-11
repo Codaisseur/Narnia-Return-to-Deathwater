@@ -1,9 +1,10 @@
 class Character < ActiveRecord::Base
+
+  mount_uploader :image, ImageUploader
   belongs_to :user
   validates_presence_of :name, :gender
-
   before_validation :set_initial_skillpoints
-#doing
+
   def initialize
     @attr_points = 6
     @fighting_attribute = 0
@@ -14,14 +15,11 @@ class Character < ActiveRecord::Base
     @innerstrength_attribute = 0
   end
 
-
-
   # def start_game
   #   if @attr_points == 0
   #     game.new
   #   end
   # end
-
 
   def add_points(points)
     @attr_points -= 1
@@ -42,5 +40,4 @@ class Character < ActiveRecord::Base
     self.perception ||= 0
     self.innerstrength ||= 0
   end
-
 end
