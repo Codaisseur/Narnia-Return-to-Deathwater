@@ -1,30 +1,34 @@
 require 'rails_helper'
 
 RSpec.describe CharactersController, :type => :controller do
-  # before do
-  #   user = FactoryGirl.create(:user)
-  #   allow(controller).to receive(:authenticate_user!).and_return(true)
-  #   allow(controller).to receive(:current_user).and_return(user)
-  # end
+
+  # let! (:char) {Character.create! :name => "TestMan", :gender => "Man", :user => current_user}
+
   describe "GET index" do
-    it "list all characters from user" do
-      sign_in :user, @user
-      get 'index'
-      response.should be_succes
+    # it "is not accessible when logged in" do
+    #   get :index
+    #   expect(response).to redirect_to new_user_session
+    # end
+
+    context "when logged in" do
+      login_user
+      let! (:char) {Character.create! :name => "TestMan", :gender => "Man"}
+
+      it "assigns all characters as @characters" do
+        get :index
+        expect(assigns(current_user.characters)).to eq([:char])
+      end
     end
   end
 
-  describe "GET show" do
-    it "it shows a specific character" do
-      sign_in :user, @user
-      get 'show'
-      response.should be_succes
-    end
-  end
-
-  
-
-
+  # describe "GET show" do
+  #   it "it shows a specific character" do
+  #     sign_in :user, @user
+  #     get 'show'
+  #     response.should be_succes
+  #   end
+  # end
+  #
 
 
 end
