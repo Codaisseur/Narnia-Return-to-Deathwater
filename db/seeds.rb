@@ -14,5 +14,7 @@ puts "Seeded #{Quest.count} Quests and #{Choice.count} Choices!"
 
 user = User.create(email: "test@test.com", password: "password")
 
-Character.create(user: user, name: "FoxyFighter", gender: "Male", fighting: 1, trickery: 1, action: 1, talking: 1, perception: 1, innerstrength: 1, remote_avatar_url: "http://res.cloudinary.com/dt4mtkh5k/image/upload/v1468231884/foxyfighter_koy1pf.jpg")
-Character.create(user: user, name: "RaytaZeFierce", gender: "Female", fighting: 1, trickery: 1, action: 1, talking: 1, perception: 1, innerstrength: 1, remote_avatar_url: "http://res.cloudinary.com/dt4mtkh5k/image/upload/v1468231893/RaytaZeFierce_lp50e6.png")
+user_second = User.create(email: "test2@test.com", password: "password")
+
+Character.create(user: user, name: "FoxyFighter", gender: "Male", fighting: 1, trickery: 1, action: 1, talking: 1, perception: 1, innerstrength: 1, attr_points: 0, remote_avatar_url: "http://res.cloudinary.com/dt4mtkh5k/image/upload/v1468231884/foxyfighter_koy1pf.jpg")
+Character.create(user: user_second, name: "RaytaZeFierce", gender: "Female", fighting: 1, trickery: 1, action: 1, talking: 1, perception: 1, innerstrength: 1, attr_points: 0, remote_avatar_url: "http://res.cloudinary.com/dt4mtkh5k/image/upload/v1468231893/RaytaZeFierce_lp50e6.png")
