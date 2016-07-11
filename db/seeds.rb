@@ -7,11 +7,12 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Quest.destroy_all
+Key.destroy_all
+QuestKey.destroy_all
 
 Dir[Rails.root.join('db/stories/**/*.rb')].each { |f| require f }
-
-puts "Seeded #{Quest.count} Quests and #{Choice.count} Choices!"
-
+Dir[Rails.root.join('db/keys/key.rb')].each { |f| require f }
+Dir[Rails.root.join('db/keys/quest_key.rb')].each { |f| require f }
 
 
 user = User.create(email: "test@test.com", password: "password")
@@ -19,3 +20,6 @@ user = User.create(email: "test@test.com", password: "password")
 
 Character.create(user: user, name: "FoxyFighter", gender: "Male", fighting: 1, trickery: 1, action: 1, talking: 1, perception: 1, innerstrength: 1, attr_points: 0, remote_avatar_url: "http://res.cloudinary.com/dt4mtkh5k/image/upload/v1468231884/foxyfighter_koy1pf.jpg")
 Character.create(user: user, name: "RaytaZeFierce", gender: "Female", fighting: 1, trickery: 1, action: 1, talking: 1, perception: 1, innerstrength: 1, attr_points: 0, remote_avatar_url: "http://res.cloudinary.com/dt4mtkh5k/image/upload/v1468231893/RaytaZeFierce_lp50e6.png")
+
+
+puts "Seeded #{Quest.count} Quests, #{Choice.count} Choices, #{Key.count} Keys and #{QuestKey.count} QuestKey!"
