@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :key do
-    number 1
+  sequence :key do |n|
+    ref_number n
   end
 end

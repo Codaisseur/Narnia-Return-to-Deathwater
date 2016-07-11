@@ -2,6 +2,6 @@ FactoryGirl.define do
   factory :quest_key do
     quest ""
     key ""
-    event "MyString"
+    event "check"
   end
 end

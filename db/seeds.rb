@@ -14,4 +14,4 @@ Dir[Rails.root.join('db/stories/**/*.rb')].each { |f| require f }
 Dir[Rails.root.join('db/keys/key.rb')].each { |f| require f }
 Dir[Rails.root.join('db/keys/quest_key.rb')].each { |f| require f }
 
-puts "Seeded #{Quest.count} Quests, #{Choice.count} Choices, #{Key.count} Keys and #{QuestKey.count} QuestChoiceKey!"
+puts "Seeded #{Quest.count} Quests, #{Choice.count} Choices, #{Key.count} Keys and #{QuestKey.count} QuestKey!"
