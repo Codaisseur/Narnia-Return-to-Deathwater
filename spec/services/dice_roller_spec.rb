@@ -12,7 +12,7 @@ RSpec.describe DiceRoller do
       end
     end
 
-    describe "default params and bonus argument" do
+    describe "default params and (string) bonus argument" do
       let(:roller) { DiceRoller.new("3") }
 
       it "should process the numerical string as an integer" do
