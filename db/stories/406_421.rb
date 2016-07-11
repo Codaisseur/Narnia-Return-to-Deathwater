@@ -413,9 +413,9 @@ quest = Quest.create(
 
 Choice.create(
   quest: quest,
-  destination: 100,
+  destination: 99,
   description: <<-CHOICE
-  Begin again, turn to 100
+  Begin again, turn to 99
   CHOICE
 )
 
